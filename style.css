@@ -1,0 +1,72 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+  }
+  .header p{
+    font-style: italic;
+    font-weight: bold;
+  }
+  .info{
+    line-height: 0px;
+  }
+  .calendar{
+    display: flex;
+    flex-direction: column;
+  }
+  .calendarIn, .calendarOff
+  {
+    margin-top: 25px;
+  }
+  .legend{ 
+    display: flex;    
+  }
+  .legendeLibre{
+  align-self: center;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green; 
+  margin-right: 15px;
+  }
+  .legendeOccupe{
+  align-self: center;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red; 
+  margin-right: 15px;
+  }
+#map{    
+  font-size: 8px;
+  font-weight: bold;
+  background: #f0caa9;
+  padding: 20px;
+  margin: auto;
+  width: 100%;
+}
+td{
+    border-radius: 3px;
+    background-color: #F4A460;
+    font-size: 9px;
+    margin: 4px 2px;
+    min-width: 15px;
+    min-height: 30px;
+    text-align: center;
+}
+td:hover{
+	-webkit-transform: scale(1.99);
+	transform: scale(1.99);
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  z-index: 2;
+} 
+
+.umbrella{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+    margin: auto;
+    margin-top: 3px;
+}
